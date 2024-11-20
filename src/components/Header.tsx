@@ -18,7 +18,9 @@ export default function Header() {
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <UtensilsCrossed className="h-8 w-8 text-amber-600" />
+            <a href="/">
             <span className="text-xl font-semibold">Savoria</span>
+            </a>
           </div>
 
           {/* Desktop Navigation */}
